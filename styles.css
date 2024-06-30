@@ -1,0 +1,90 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url('image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #2F4F4F;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #013f01;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #228B22;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+    background-color: rgba(119, 223, 119, 0.8);
+}
+section h2 {
+    margin: 2rem;
+}
+section p {
+    margin: 2rem;
+}
+section {
+    border: 5px solid rgba(3, 66, 3, 0.8);
+    border-radius: 10px;      
+    margin-bottom: 2rem;
+}
+section img {
+    border: 5px solid rgba(0, 0, 0, 0.8); 
+    border-radius: 10px; 
+    margin: 2rem;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #5cc45c;
+}
+.project img{
+    width: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.8); 
+    border-radius: 10px; 
+    margin: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
